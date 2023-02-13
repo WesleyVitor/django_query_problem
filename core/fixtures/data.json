@@ -1,0 +1,80 @@
+[   
+    
+    {
+    "model": "core.user",
+    "pk": 1,
+    "fields": {
+        "name": "Paul"
+        }
+    },
+    {
+        "model": "core.video",
+        "pk": 1,
+        "fields": {
+            "title": "Dancinha do loirinho",
+            "url":"www.google.com.br",
+            "visualizations": 0,
+            "user": 1
+        }
+    },
+    {
+    "model": "core.user",
+    "pk": 2,
+    "fields": {
+        "name": "Marie"
+        }
+    },
+    {
+        "model": "core.video",
+        "pk": 2,
+        "fields": {
+            "title": "Dancinha do forró",
+            "url":"www.google.com.br",
+            "visualizations": 0,
+            "user": 2
+        }
+    },
+    {
+    "model": "core.user",
+    "pk": 3,
+    "fields": {
+        "name": "Mary"
+        }
+    },
+    {
+        "model": "core.video",
+        "pk": 3,
+        "fields": {
+            "title": "The office",
+            "url":"www.google.com.br",
+            "visualizations": 0,
+            "user": 3
+        }
+    },
+    {
+    "model": "core.category",
+    "pk": 1,
+    "fields": {
+        "title": "Entretenimento",
+        "videos":[1,2,3]
+        }
+    },
+    {
+    "model": "core.category",
+    "pk": 2,
+    "fields": {
+        "title": "Forró",
+        "videos":[2]
+        }
+    },
+    {
+    "model": "core.category",
+    "pk": 3,
+    "fields": {
+        "title": "Funk",
+        "videos":[1]
+        }
+    }
+  
+
+]
